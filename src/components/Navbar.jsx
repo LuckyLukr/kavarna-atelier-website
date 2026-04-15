@@ -25,11 +25,20 @@ export default function Navbar() {
     document.documentElement.classList.add('scroll-smooth')
   }, [])
 
+  useEffect(() => {
+    const menuToggleEl = document.getElementById(ids.menuToggle)
+    if (!menuToggleEl) return
+    menuToggleEl.setAttribute('aria-expanded', String(open))
+    menuToggleEl.setAttribute('aria-label', open ? 'Zavřít navigační menu' : 'Otevřít navigační menu')
+  }, [open, ids.menuToggle])
+
   const toggleMenu = () => setOpen((v) => !v)
 
   const onNavLinkClick = (e) => {
     const href = e.currentTarget.getAttribute('href') || ''
-    if (href.startsWith('#') && window.innerWidth < 768) setOpen(false)
+    if (href.startsWith('#') && window.innerWidth < 768) {
+      setOpen(false)
+    }
   }
 
   return (

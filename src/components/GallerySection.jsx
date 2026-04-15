@@ -94,9 +94,7 @@ export default function GallerySection() {
             />
             <figcaption className="p-5">
               <h3 className="font-serif text-2xl text-ink">Dezerty a momenty</h3>
-              <p className="mt-2 text-sm leading-7 text-ink/70">
-                Když chybí vlastní fotografie, web zůstává plný a vizuálně funkční díky kvalitním placeholderům.
-              </p>
+              <p className="mt-2 text-sm leading-7 text-ink/70">Když chybí vlastní fotografie, web zůstává plný a vizuálně funkční díky kvalitním placeholderům.</p>
             </figcaption>
           </figure>
         </div>
