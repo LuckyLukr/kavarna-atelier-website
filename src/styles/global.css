@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --cream: #F7F1E8;
+  --beige: #E8DCCB;
+  --sand: #D6C2A8;
+  --mocha: #8B6B4E;
+  --espresso: #4A3426;
+  --forest: #2F4A3C;
+  --ink: #1F1A17;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  margin: 0;
+}
+
+.grain {
+  background-image: radial-gradient(circle at 1px 1px, rgba(74, 52, 38, 0.05) 1px, transparent 0);
+  background-size: 18px 18px;
+}
+
+.nav-blur {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* minimal utility classes used by markup (fallback if Tailwind isn't present).
+   Project is expected to include Tailwind-like utilities via build system; these preserve critical styles. */
+.section-anchor {
+  scroll-margin-top: 92px;
+}
