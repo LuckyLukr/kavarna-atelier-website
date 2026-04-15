@@ -8,10 +8,10 @@ export default function HoursSection() {
           <div>
             <span className="text-xs font-bold uppercase tracking-[0.24em] text-gold">Otevírací doba</span>
             <h2 className="mt-3 font-display text-4xl font-black sm:text-5xl">
-              Kdykoliv máte chuť zpomalit, SklepKafe je připravené.
+              Kdykoliv máte chuť zpomalit, Atelier je připravený.
             </h2>
             <p className="mt-5 max-w-xl text-base leading-8 text-cream/75">
-              Přehledná otevírací doba pomáhá hostům plánovat návštěvu bez zbytečného hledání. Kavárna funguje bez rezervací — stačí přijít a užít si atmosféru.
+              Přehledná otevírací doba pomáhá hostům plánovat návštěvu bez zbytečného hledání. Stačí přijít a užít si atmosféru, kávu i chvíli klidu.
             </p>
           </div>
 

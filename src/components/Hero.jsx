@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/images/hero-1.jpg"
-          alt="Hero fotografie kavárny SklepKafe s luxusní atmosférou"
+          alt="Hero fotografie kavárny Atelier s útulnou atmosférou"
           className="h-full w-full object-cover"
         />
       </div>
@@ -20,11 +20,11 @@ export default function Hero() {
           </span>
 
           <h1 className="font-display text-5xl font-black leading-[0.9] text-cream sm:text-6xl lg:text-7xl xl:text-[5.4rem]">
-            SklepKafe. Luxusní coffee house zážitek v teplém a sofistikovaném prostoru.
+            Kavárna Atelier. Prémiový coffee house zážitek v teplém a sofistikovaném prostoru.
           </h1>
 
           <p className="mt-6 max-w-2xl text-base leading-8 text-cream/75 sm:text-lg">
-            SklepKafe je moderní kavárna s důrazem na emoci, detail a estetiku. Přijďte na výběrovou kávu, poctivé dezerty a chvíli, která působí klidně, exkluzivně a přirozeně.
+            Kavárna Atelier je moderní kavárna s důrazem na emoci, detail a estetiku. Přijďte na výběrovou kávu, poctivé dezerty a chvíli, která působí klidně, exkluzivně a přirozeně.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -66,12 +66,12 @@ export default function Hero() {
                 Designový prostor, silná značka a servis, který působí přirozeně.
               </h2>
               <p className="mt-4 text-sm leading-7 text-cream/70">
-                SklepKafe stojí na čisté vizuální identitě, velkých fotografiích, výrazné typografii a atmosféře, která podporuje reálný provoz i silný první dojem.
+                Kavárna Atelier stojí na čisté vizuální identitě, velkých fotografiích, výrazné typografii a atmosféře, která podporuje reálný provoz i silný první dojem.
               </p>
               <div className="mt-6 h-px w-full bg-gradient-to-r from-gold/0 via-gold/40 to-gold/0" />
               <div className="mt-6 flex items-center justify-between text-sm text-cream/70">
                 <span>Káva</span>
-                <span>Dezerty</span>
+                <span>Brunch</span>
                 <span>Nápoje</span>
                 <span>Atmosféra</span>
               </div>

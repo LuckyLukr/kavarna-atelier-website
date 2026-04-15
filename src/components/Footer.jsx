@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="absolute inset-0 opacity-20">
         <img
           src="/images/footer-1.png"
-          alt="Dekorativní footer fotografie kavárny SklepKafe"
+          alt="Dekorativní footer fotografie kavárny Atelier"
           className="h-full w-full object-cover"
           loading="lazy"
         />
@@ -20,17 +20,17 @@ export default function Footer() {
               className="inline-flex items-center gap-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-noir"
             >
               <div className="flex h-11 w-11 items-center justify-center rounded-full border border-gold/40 bg-gold/10 text-gold">
-                <span className="font-display text-xl font-black">S</span>
+                <span className="font-display text-xl font-black">A</span>
               </div>
               <div>
-                <p className="font-display text-3xl font-extrabold leading-none">SklepKafe</p>
+                <p className="font-display text-3xl font-extrabold leading-none">Kavárna Atelier</p>
                 <p className="mt-1 text-sm text-cream/75">
-                  Luxusní, útulná a moderní kavárna s výraznou atmosférou.
+                  Prémiová, útulná a moderní kavárna s výraznou atmosférou.
                 </p>
               </div>
             </a>
             <p className="mt-6 max-w-xl text-sm leading-7 text-cream/75">
-              Web prezentuje SklepKafe jako stylovou prémiovou značku s důrazem na vizuální kvalitu, přehlednost, emoci a profesionální použití v reálném provozu kavárny.
+              Web prezentuje Kavárnu Atelier jako stylovou prémiovou značku s důrazem na vizuální kvalitu, přehlednost, emoci a profesionální použití v reálném provozu kavárny.
             </p>
           </div>
 
@@ -61,8 +61,8 @@ export default function Footer() {
             <a href="#" className="block text-sm text-cream/75 transition-all duration-300 hover:text-white">
               Facebook
             </a>
-            <a href="mailto:ahoj@sklepkafe.cz" className="block text-sm text-cream/75 transition-all duration-300 hover:text-white">
-              ahoj@sklepkafe.cz
+            <a href="mailto:ahoj@kavarnaatelier.cz" className="block text-sm text-cream/75 transition-all duration-300 hover:text-white">
+              ahoj@kavarnaatelier.cz
             </a>
             <a href="tel:+420777123456" className="block text-sm text-cream/75 transition-all duration-300 hover:text-white">
               +420 777 123 456
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col gap-4 pt-6 text-sm text-cream/70 sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2026 SklepKafe. Všechna práva vyhrazena.</p>
+          <p>© 2026 Kavárna Atelier. Všechna práva vyhrazena.</p>
           <div className="flex flex-wrap gap-4">
             <a href="#" className="transition-all duration-300 hover:text-white">
               Privacy

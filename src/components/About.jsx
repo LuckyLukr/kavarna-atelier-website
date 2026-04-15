@@ -13,7 +13,7 @@ export default function About() {
             </h2>
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-ink/75">
-              SklepKafe vzniklo jako místo pro hosty, kteří hledají víc než jen dobrou kávu. Spojujeme elegantní prostředí, pečlivě vybraný servis, silný vizuální charakter a nabídku, která funguje od ranního espressa až po odpolední dezert.
+              Kavárna Atelier vznikla jako místo pro hosty, kteří hledají víc než jen dobrou kávu. Spojujeme elegantní prostředí, pečlivě vybraný servis, silný vizuální charakter a nabídku, která funguje od ranního espressa až po pomalý brunch.
             </p>
 
             <p className="mt-4 max-w-2xl text-base leading-8 text-ink/75">
@@ -24,7 +24,7 @@ export default function About() {
               <article className="rounded-3xl border border-mocha/10 bg-white p-6 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-warm">
                 <h3 className="font-display text-2xl font-bold text-ink">Výběrová káva</h3>
                 <p className="mt-3 text-sm leading-7 text-ink/70">
-                  Každý šálek je postavený na přesnosti, čisté chuti a konzistentní připravě.
+                  Každý šálek je postavený na přesnosti, čisté chuti a konzistentní přípravě.
                 </p>
               </article>
               <article className="rounded-3xl border border-mocha/10 bg-white p-6 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-warm">
@@ -42,7 +42,7 @@ export default function About() {
               <article className="rounded-3xl border border-mocha/10 bg-white p-6 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-warm">
                 <h3 className="font-display text-2xl font-bold text-ink">Místo pro moment</h3>
                 <p className="mt-3 text-sm leading-7 text-ink/70">
-                  SklepKafe je ideální pro krátké zastavení, schůzku i pomalejší odpoledne.
+                  Atelier je ideální pro krátké zastavení, schůzku i pomalejší odpoledne.
                 </p>
               </article>
             </div>
@@ -52,7 +52,7 @@ export default function About() {
             <article className="overflow-hidden rounded-[2rem] border border-mocha/10 bg-white shadow-warm">
               <img
                 src="/images/tiles-1.png"
-                alt="Detail kávy a servisu v kavárně SklepKafe"
+                alt="Detail kávy a servisu v kavárně Atelier"
                 className="h-64 w-full object-cover transition-all duration-500 hover:scale-[1.03]"
                 loading="lazy"
               />
@@ -67,7 +67,7 @@ export default function About() {
             <article className="overflow-hidden rounded-[2rem] border border-gold/15 bg-noir text-cream shadow-luxe">
               <img
                 src="/images/tiles-2.png"
-                alt="Atmosférický detail interiéru kavárny SklepKafe"
+                alt="Atmosférický detail interiéru kavárny Atelier"
                 className="h-64 w-full object-cover opacity-90 transition-all duration-500 hover:scale-[1.03]"
                 loading="lazy"
               />
