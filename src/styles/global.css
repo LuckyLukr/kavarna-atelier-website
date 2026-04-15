@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --cream: #F7F1E8;
-  --beige: #E8DCCB;
-  --sand: #D6C2A8;
-  --mocha: #8B6B4E;
-  --espresso: #4A3426;
+  --cream: #F5EFE6;
+  --beige: #D7C2A3;
+  --sand: #B89A72;
+  --mocha: #5E412F;
+  --espresso: #2B1D16;
   --forest: #2F4A3C;
-  --ink: #1F1A17;
+  --ink: #171311;
+  --gold: #C9A86A;
+  --bronze: #8C6542;
+  --noir: #120E0C;
 }
 
 html {
@@ -21,17 +24,28 @@ body {
 }
 
 .grain {
-  background-image: radial-gradient(circle at 1px 1px, rgba(74, 52, 38, 0.05) 1px, transparent 0);
+  background-image: radial-gradient(circle at 1px 1px, rgba(94, 65, 47, 0.06) 1px, transparent 0);
   background-size: 18px 18px;
 }
 
 .nav-blur {
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
-/* minimal utility classes used by markup (fallback if Tailwind isn't present).
-   Project is expected to include Tailwind-like utilities via build system; these preserve critical styles. */
 .section-anchor {
   scroll-margin-top: 92px;
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(18, 14, 12, 0.82) 0%,
+    rgba(18, 14, 12, 0.54) 42%,
+    rgba(18, 14, 12, 0.14) 100%
+  );
+}
+
+.gold-ring {
+  box-shadow: 0 0 0 1px rgba(201, 168, 106, 0.18), 0 24px 70px rgba(18, 14, 12, 0.24);
 }
