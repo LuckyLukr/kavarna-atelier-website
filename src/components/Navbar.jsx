@@ -147,7 +147,11 @@ export default function Navbar() {
 
           <div
             id={ids.mobileMenu}
-            className={open ? 'border-t border-gold/10 px-4 pb-4 pt-3 md:hidden' : 'hidden border-t border-gold/10 px-4 pb-4 pt-3 md:hidden'}
+            className={
+              open
+                ? 'border-t border-gold/10 px-4 pb-4 pt-3 md:hidden'
+                : 'hidden border-t border-gold/10 px-4 pb-4 pt-3 md:hidden'
+            }
           >
             <nav className="flex flex-col gap-2" aria-label="Mobilní navigace">
               <a
