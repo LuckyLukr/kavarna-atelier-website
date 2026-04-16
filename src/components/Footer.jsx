@@ -56,35 +56,25 @@ export default function Footer() {
           </nav>
 
           <div className="space-y-3">
-            <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-gold">Sociální sítě</h3>
-            <a href="#" className="block text-sm text-cream/75 transition-all duration-300 hover:text-white">
-              Instagram
-            </a>
-            <a href="#" className="block text-sm text-cream/75 transition-all duration-300 hover:text-white">
-              Facebook
-            </a>
+            <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-gold">Spojte se s námi</h3>
             <a href="mailto:ahoj@sklepkafe.cz" className="block text-sm text-cream/75 transition-all duration-300 hover:text-white">
               ahoj@sklepkafe.cz
             </a>
             <a href="tel:+420777123456" className="block text-sm text-cream/75 transition-all duration-300 hover:text-white">
               +420 777 123 456
             </a>
+            <a href="#" className="block text-sm text-cream/75 transition-all duration-300 hover:text-white">
+              Instagram
+            </a>
+            <a href="#" className="block text-sm text-cream/75 transition-all duration-300 hover:text-white">
+              Facebook
+            </a>
           </div>
         </div>
 
-        <div className="flex flex-col gap-4 pt-6 text-sm text-cream/70 sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2026 sklep kafe. Všechna práva vyhrazena.</p>
-          <div className="flex flex-wrap gap-4">
-            <a href="#" className="transition-all duration-300 hover:text-white">
-              Privacy
-            </a>
-            <a href="#" className="transition-all duration-300 hover:text-white">
-              Terms
-            </a>
-            <a href="#" className="transition-all duration-300 hover:text-white">
-              Cookies
-            </a>
-          </div>
+        <div className="flex flex-col gap-4 pt-6 text-sm text-cream/60 sm:flex-row sm:items-center sm:justify-between">
+          <p>© 2025 sklep kafe. Všechna práva vyhrazena.</p>
+          <p>Prémiová kavárna s útulnou atmosférou v Dolních Věstonicích.</p>
         </div>
       </div>
     </footer>

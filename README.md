@@ -84,6 +84,8 @@ npm run dev
 npm run build
 ```
 
+Tailwind CSS is preconfigured through Vite and loaded from `src/tailwind.css`.
+
 Built with React + Vite. Deployed via Jean AI.
 
 ## Images
