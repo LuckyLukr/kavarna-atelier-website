@@ -19,7 +19,7 @@ export default function MenuSection() {
     { name: 'Pistáciový cheesecake', desc: 'Krémová textura, jemná sladkost a prémiový pistáciový akcent.', price: '109 Kč' },
     { name: 'Čokoládový dort', desc: 'Intenzivní kakao, hebký krém a elegantní, nevtíravá sladkost.', price: '104 Kč' },
     { name: 'Citronová tartaletka', desc: 'Křehké těsto, svěží citronový krém a čisté zakončení chuti.', price: '99 Kč' },
-    { name: 'Medovník Atelier', desc: 'Vrstvený dezert s jemným krémem a teplým medovým tónem.', price: '96 Kč' },
+    { name: 'Medovník sklep kafe', desc: 'Vrstvený dezert s jemným krémem a teplým medovým tónem.', price: '96 Kč' },
   ]
 
   const drinkItems = [
@@ -45,10 +45,10 @@ export default function MenuSection() {
         <div className="max-w-3xl">
           <span className="text-xs font-bold uppercase tracking-[0.24em] text-bronze">Menu / nabídka</span>
           <h2 className="mt-3 font-display text-4xl font-black text-ink sm:text-5xl">
-            Silná nabídka pro celý den — káva, brunch, dezerty i signature nápoje.
+            To nejlepší pro pohodové ráno, pomalý brunch i sladkou pauzu během dne.
           </h2>
           <p className="mt-5 text-base leading-8 text-ink/75">
-            Menu je navržené tak, aby bylo čitelné, elegantní a použitelné pro reálný provoz. Jasná hierarchie, výrazné názvy a přehledné ceny podporují rychlou orientaci i prémiový dojem.
+            Přehledné menu, oblíbené klasiky i pár signature položek, které se skvěle hodí k atmosféře sklep kafe. Vyberte si podle chuti a klidně zůstaňte o chvíli déle.
           </p>
         </div>
 
@@ -95,14 +95,14 @@ export default function MenuSection() {
             </div>
           </article>
 
-          <article className="rounded-[2rem] border border-gold/15 bg-noir p-6 text-cream shadow-luxe sm:p-8">
+          <article className="lux-dots brown-surface rounded-[2rem] border border-gold/15 p-6 text-cream shadow-luxe sm:p-8">
             <div className="flex items-center justify-between gap-4">
               <h3 className="font-display text-3xl font-extrabold">Wine / drinks</h3>
               <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] text-gold">
                 Signature selection
               </span>
             </div>
-            <div className="mt-6 space-y-5">
+            <div className="mt-6 space-y-5 relative">
               {drinkItems.map((item) => (
                 <div key={item.name} className="rounded-2xl border border-white/10 bg-white/5 p-4">
                   <div className="flex items-start justify-between gap-4">

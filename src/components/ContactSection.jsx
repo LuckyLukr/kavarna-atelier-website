@@ -8,20 +8,20 @@ export default function ContactSection() {
           <div>
             <span className="text-xs font-bold uppercase tracking-[0.24em] text-bronze">Kontakt</span>
             <h2 className="mt-3 font-display text-4xl font-black text-ink sm:text-5xl">
-              Přijďte na kávu, brunch a atmosféru, která má styl.
+              Najdete nás v Dolních Věstonicích. Přijďte na kávu, brunch i chvíli pohody.
             </h2>
 
             <p className="mt-5 max-w-xl text-base leading-8 text-ink/75">
-              Kontakt je navržený přehledně a prakticky. Host okamžitě najde adresu, telefon, e-mail, sociální sítě i mapu lokace bez zbytečných kroků.
+              Pokud máte cestu kolem, zastavte se na něco dobrého. A jestli se chcete na něco zeptat, napište nebo zavolejte — budeme rádi.
             </p>
 
             <div className="mt-10 grid gap-4 sm:grid-cols-2">
               <div className="rounded-3xl border border-mocha/10 bg-white p-5 shadow-soft">
                 <h3 className="text-sm font-bold uppercase tracking-[0.16em] text-bronze">Adresa</h3>
                 <p className="mt-3 text-base leading-7 text-ink/85">
-                  Masarykova 24
+                  Dolní Věstonice
                   <br />
-                  602 00 Brno
+                  Jihomoravský kraj
                 </p>
               </div>
 
@@ -37,8 +37,8 @@ export default function ContactSection() {
               <div className="rounded-3xl border border-mocha/10 bg-white p-5 shadow-soft">
                 <h3 className="text-sm font-bold uppercase tracking-[0.16em] text-bronze">E-mail</h3>
                 <p className="mt-3 text-base leading-7 text-ink/85">
-                  <a href="mailto:ahoj@kavarnaatelier.cz" className="transition-all duration-300 hover:text-bronze">
-                    ahoj@kavarnaatelier.cz
+                  <a href="mailto:ahoj@sklepkafe.cz" className="transition-all duration-300 hover:text-bronze">
+                    ahoj@sklepkafe.cz
                   </a>
                 </p>
               </div>
@@ -47,20 +47,20 @@ export default function ContactSection() {
                 <h3 className="text-sm font-bold uppercase tracking-[0.16em] text-bronze">Instagram</h3>
                 <p className="mt-3 text-base leading-7 text-ink/85">
                   <a href="#" className="transition-all duration-300 hover:text-bronze">
-                    @kavarnaatelier
+                    @sklepkafe
                   </a>
                   <br />
                   <a href="#" className="transition-all duration-300 hover:text-bronze">
-                    facebook.com/kavarnaatelier
+                    facebook.com/sklepkafe
                   </a>
                 </p>
               </div>
             </div>
 
             <div className="mt-8 rounded-[2rem] border border-mocha/10 bg-white p-6 shadow-soft">
-              <h3 className="font-display text-3xl font-bold text-ink">Provozní informace</h3>
+              <h3 className="font-display text-3xl font-bold text-ink">Napište nebo se rovnou stavte</h3>
               <p className="mt-3 text-sm leading-7 text-ink/70">
-                Pro větší návštěvu, focení nebo spolupráci nás kontaktujte předem telefonicky nebo e-mailem. Rádi vám pomůžeme s individuální domluvou.
+                Rádi poradíme s dotazy, větší návštěvou i čímkoliv, co vás kolem sklep kafe zajímá. Nejlepší je ale přijít osobně a dát si něco výborného.
               </p>
             </div>
           </div>
@@ -69,11 +69,11 @@ export default function ContactSection() {
             <div className="overflow-hidden rounded-[2rem] border border-mocha/10 bg-white shadow-warm">
               <div className="aspect-[16/10] w-full">
                 <iframe
-                  title="Mapa kavárny Atelier"
+                  title="Mapa kavárny sklep kafe"
                   className="h-full w-full"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  src="https://www.google.com/maps?q=Brno%20Masarykova%2024&z=15&output=embed"
+                  src="https://www.google.com/maps?q=Doln%C3%AD%20V%C4%9Bstonice&z=15&output=embed"
                 />
               </div>
             </div>
@@ -81,7 +81,7 @@ export default function ContactSection() {
             <div className="rounded-[2rem] border border-mocha/10 bg-white p-6 shadow-soft">
               <h3 className="font-display text-3xl font-bold text-ink">Sledujte nás online</h3>
               <p className="mt-2 text-sm leading-7 text-ink/70">
-                Sociální sítě jsou důležitou součástí prezentace značky — sdílíme novinky, brunch menu, dezerty, denní atmosféru i vizuální momenty z kavárny.
+                Na sociálních sítích sdílíme novinky z kavárny, sezónní nabídku, dezerty i každodenní atmosféru, která dělá sklep kafe tím, čím je.
               </p>
 
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
@@ -91,7 +91,7 @@ export default function ContactSection() {
                 <a href="#" className="rounded-2xl border border-mocha/10 bg-cream px-5 py-4 text-sm font-bold text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-beige">
                   Facebook
                 </a>
-                <a href="mailto:ahoj@kavarnaatelier.cz" className="rounded-2xl border border-mocha/10 bg-cream px-5 py-4 text-sm font-bold text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-beige">
+                <a href="mailto:ahoj@sklepkafe.cz" className="rounded-2xl border border-mocha/10 bg-cream px-5 py-4 text-sm font-bold text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-beige">
                   E-mail
                 </a>
                 <a href="tel:+420777123456" className="rounded-2xl border border-mocha/10 bg-cream px-5 py-4 text-sm font-bold text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-beige">

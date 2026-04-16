@@ -54,14 +54,14 @@ export default function Navbar() {
               onClick={onNavLinkClick}
             >
               <div className="flex h-10 w-10 items-center justify-center rounded-full border border-gold/40 bg-gold/10 text-gold shadow-md">
-                <span className="font-display text-xl font-black">A</span>
+                <span className="font-display text-xl font-black">S</span>
               </div>
               <div>
                 <p className="font-display text-2xl font-extrabold leading-none text-cream">
-                  Atelier
+                  sklep kafe
                 </p>
                 <p className="text-[11px] uppercase tracking-[0.24em] text-gold/80">
-                  Coffee House • Dessert • Atmosféra
+                  Coffee House • Brunch • Atmosféra
                 </p>
               </div>
             </a>
